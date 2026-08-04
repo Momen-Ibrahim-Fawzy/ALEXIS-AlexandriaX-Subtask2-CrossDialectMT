@@ -1,0 +1,20 @@
+numpy==1.26.4
+torch==2.11.0
+transformers==5.5.0
+peft==0.20.0
+accelerate==1.13.0
+sacrebleu==2.6.0
+sentence-transformers==5.3.0
+pandas
+huggingface_hub
+
+# torch was run against a CUDA 12.8 build (torch==2.11.0+cu128) on the original
+# training machine; install the CPU/CUDA build matching your own hardware from
+# https://pytorch.org/get-started/locally/
+#
+# transformers==5.5.0 is a hard requirement, not a suggestion: this codebase
+# works around a real bug in that version's fast-tokenizer wrapper for NLLB
+# (see nllb_utils.py's module docstring) by manually constructing input ids.
+# A different transformers version may not have the bug, or may have a
+# different one -- verify nllb_utils.build_ids's output before trusting it
+# if you change this pin.
