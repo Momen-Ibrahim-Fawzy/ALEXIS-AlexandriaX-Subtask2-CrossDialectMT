@@ -78,6 +78,23 @@ python src/make_submission.py outputs/predictions/predictions.csv --tag dpo_v2
 offline dev sets; `src/audit_dialect_markers.py <predictions.csv>` is a quick sanity check
 before submitting.
 
+## 🎤 ArabicNLP 2026 Poster & Presentation
+
+Poster and slides for **The Fourth Arabic Natural Language Processing Conference (ArabicNLP 2026)**,
+co-located with **EMNLP 2026**, Budapest, Hungary (October 28–29, 2026).
+
+<p align="center">
+  <a href="presentation/ALEXIS_Poster_AlexandriaX_Subtask2_CrossDialectMT.pdf"><img src="presentation/poster_preview.png" alt="ALEXIS poster" width="520"/></a>
+</p>
+
+| | |
+|---|---|
+| 🖼️ Poster | [PDF](presentation/ALEXIS_Poster_AlexandriaX_Subtask2_CrossDialectMT.pdf) |
+| 📊 Slides | [PDF](presentation/ALEXIS_AlexandriaX_Subtask2_CrossDialectMT_Presentation.pdf) · [PowerPoint](presentation/ALEXIS_AlexandriaX_Subtask2_CrossDialectMT_Presentation.pptx) |
+| 🎬 Poster video | [MP4 download](https://github.com/Momen-Ibrahim-Fawzy/ALEXIS-AlexandriaX-Subtask2-CrossDialectMT/releases/download/arabicnlp2026/ALEXIS_Poster_AlexandriaX_Subtask2_CrossDialectMT_final.mp4) (from the [release](https://github.com/Momen-Ibrahim-Fawzy/ALEXIS-AlexandriaX-Subtask2-CrossDialectMT/releases/tag/arabicnlp2026)) |
+
+---
+
 ## Citation
 
 If you use this code, please cite the AlexandriaX-2026 shared task overview paper and our
